@@ -6,7 +6,7 @@ const key = ref("chicago");
 
 <template>
   <main>
-    <img :src="`${baseDir}images/${fixtures[key].img}`">
-    <h1>Filename: {{ fixtures[key].img }}</h1>
+    <!-- <img :src="`${baseDir}images/${fixtures[key].img}`">
+    <h1>Filename: {{ fixtures[key].img }}</h1> -->
   </main>
 </template>
